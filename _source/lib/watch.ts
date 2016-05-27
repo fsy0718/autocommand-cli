@@ -17,6 +17,7 @@ class Watch {
     basePath: string;
     browserSync: any;
     watcher: any;
+
     compile(): void {
       this.run({compile: true});
     }
